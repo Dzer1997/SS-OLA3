@@ -10,7 +10,7 @@ def run():
     try:
         print("Division:", calc.divide(a, b))
     except ValueError as e:
-        print("Fejl:", e)
+        print("Fejl:",e)
 
 if __name__ == "__main__":
     run()
