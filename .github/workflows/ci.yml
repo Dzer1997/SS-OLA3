@@ -68,7 +68,7 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN }}
           registry: ghcr.io
 
-      # Push Docker image to GHCR
+      # Push Docker image to GHCR1
       - name: Push Docker image to GHCR
         run: |
           docker tag ss-ola3 ghcr.io/dzer1997/ss-ola3
