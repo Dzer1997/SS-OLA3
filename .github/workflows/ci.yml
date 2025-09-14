@@ -34,7 +34,8 @@ jobs:
       # Her skal du køre pytest med coverage
       - name: Run tests with coverage
         run: |
-          pytest --cov=.
+          export PYTHONPATH=$PYTHONPATH:.
+          python -m pytest --cov=calculator tests/
       
       - name: Generate coverage HTML
         run: coverage html
