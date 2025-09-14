@@ -17,7 +17,7 @@ def test_multiply():
 def test_divide():
     assert calc.divide(10, 2) == 5
 
-    
+
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         calc.divide(5, 0)
