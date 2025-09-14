@@ -60,7 +60,7 @@ jobs:
         run: |
           docker build -t my-python-app .
 
-      # Log in to GHCR
+      # Log in to GHCR1
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v2
         with:
