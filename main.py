@@ -1,5 +1,6 @@
 from calculator import calc
 
+
 def run():
     print("Lommeregner")
     a = float(input("Indtast første tal: "))
@@ -11,6 +12,7 @@ def run():
         print("Division:", calc.divide(a, b))
     except ValueError as e:
         print("Fejl:", e)
+
 
 if __name__ == "__main__":
     run()
