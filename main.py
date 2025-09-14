@@ -1,6 +1,5 @@
 from calculator import calc
 
-
 def run():
     print("Lommeregner")
     a = float(input("Indtast første tal: "))
