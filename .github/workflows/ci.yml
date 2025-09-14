@@ -71,5 +71,5 @@ jobs:
       # Push Docker image to GHCR
       - name: Push Docker image to GHCR
         run: |
-          docker tag SS-OLA3:latest ghcr.io/Dzer1997/S-OLA3:latest
-          docker push ghcr.io/Dzer1997/S-OLA3:latest
+          docker tag SS-OLA3:latest ghcr.io/Dzer1997/SS-OLA3:latest
+          docker push ghcr.io/Dzer1997/SS-OLA3:latest
