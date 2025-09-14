@@ -58,7 +58,7 @@ jobs:
       # Her skal du bygge Docker image
       - name: Build Docker image
         run: |
-          docker build -t my-python-app .
+          docker build -t ss-ola3 .
 
       # Log in to GHCR
       - name: Log in to GitHub Container Registry
@@ -71,5 +71,5 @@ jobs:
       # Push Docker image to GHCR
       - name: Push Docker image to GHCR
         run: |
-          docker tag SS-OLA3 ghcr.io/Dzer1997/SS-OLA3
-          docker push ghcr.io/Dzer1997/SS-OLA3
+          docker tag ss-ola3 ghcr.io/dzer1997/ss-ola3
+          docker push ghcr.io/dzer1997/ss-ola3
