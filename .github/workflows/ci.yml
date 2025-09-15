@@ -41,7 +41,9 @@ jobs:
         run: coverage html
 
       - name: Generate SBOM
-        run: cyclonedx-py -o sbom.json
+        run: |
+          cyclonedx-py requirements requirements.txt --output-file sbom.json
+
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
